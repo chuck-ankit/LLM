@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.7.16",
+    "heartbeatAt": "2024-01-07T18:48:35.370295",
+    "startedAt": "2024-01-07T18:48:33.529548",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/chuck-ankit/LLM.git",
+        "commit": "51c9c79ab4ce525d7e2486c92b6451699c2e318a"
+    },
+    "email": "ankitkumar9864@gmail.com",
+    "root": "C:/GitHub/LLM",
+    "host": "MSI",
+    "username": "ankit",
+    "executable": "c:\\ProgramData\\anaconda3\\envs\\tf\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2700.0,
+        "min": 0.0,
+        "max": 2700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2700.0,
+            "min": 0.0,
+            "max": 2700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 455.92968368530273,
+            "used": 358.53868103027344
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.707809448242188
+    }
+}

@@ -1,0 +1,26 @@
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to .\MNIST\raw\train-images-idx3-ubyte.gz
+Extracting .\MNIST\raw\train-images-idx3-ubyte.gz to .\MNIST\raw
+100%|██████████| 9912422/9912422 [00:00<00:00, 10728662.07it/s]
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to .\MNIST\raw\train-labels-idx1-ubyte.gz
+Extracting .\MNIST\raw\train-labels-idx1-ubyte.gz to .\MNIST\raw
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz to .\MNIST\raw\t10k-images-idx3-ubyte.gz
+Extracting .\MNIST\raw\t10k-images-idx3-ubyte.gz to .\MNIST\raw
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz to .\MNIST\raw\t10k-labels-idx1-ubyte.gz
+Extracting .\MNIST\raw\t10k-labels-idx1-ubyte.gz to .\MNIST\raw
+100%|██████████| 28881/28881 [00:00<00:00, 7120602.74it/s]
+100%|██████████| 1648877/1648877 [00:00<00:00, 4747867.78it/s]
+100%|██████████| 4542/4542 [00:00<00:00, 1302422.15it/s]
+Train Loss: 0.406, Valid Loss: 0.290422, Accuracy: 0.92
+Train Loss: 0.148, Valid Loss: 0.223809, Accuracy: 0.93
+Train Loss: 0.203, Valid Loss: 0.207084, Accuracy: 0.93
+Train Loss: 0.129, Valid Loss: 0.187956, Accuracy: 0.94
+Train Loss: 0.221, Valid Loss: 0.173752, Accuracy: 0.94
+Train Loss: 0.233, Valid Loss: 0.170056, Accuracy: 0.95
+Train Loss: 0.086, Valid Loss: 0.158369, Accuracy: 0.95
+Train Loss: 0.103, Valid Loss: 0.151724, Accuracy: 0.95
+Train Loss: 0.123, Valid Loss: 0.147540, Accuracy: 0.95
+Train Loss: 0.057, Valid Loss: 0.144132, Accuracy: 0.95
