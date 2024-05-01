@@ -23,7 +23,7 @@ Make sure you have the following installed:
 Clone this repository:
 
 ```bash
-git clone https://github.com/your_username/your_repository.git
+git clone https://github.com/chuck-ankit/LLM/tree/main/Learning/Langchain
 ```
 
 Install the required dependencies:
