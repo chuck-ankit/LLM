@@ -4,14 +4,6 @@
 
 This Streamlit application allows users to chat with a PDF document using the Gemini conversational AI model. Before starting the conversation, users need to upload a CSV, PDF, or TXT file containing the context from which queries will be answered.
 
-## Demo Video
-
-<video width="640" height="360" controls>
-  <source src="Demo video of Filequery chatbot.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-Click on the video above to watch the demo.
 
 ## Getting Started
 
