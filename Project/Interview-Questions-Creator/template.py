@@ -12,7 +12,8 @@ list_of_files = [
     ".env",
     "setup.py",
     "research/trials.ipynb",  # Corrected typo: 'trails' to 'trials'
-    "app.py"
+    "app.py",
+    "requirements.txt"
 ]
 
 for filepath in list_of_files:
