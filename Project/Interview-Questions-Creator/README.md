@@ -10,8 +10,9 @@ This project utilizes a variety of frameworks and tools to achieve a robust, pro
 ## Application Flow Control
 The flow control of the application can be visualized using the following diagram:
 
+<!-- https://whimsical.com/intwerviw-questions-creator-23ANvjR7LYnCLV9mfj26cZ@6HYTAunKLgTSmPL4hPzUnzpCisSshwPd9MPFX41BD9haYsd -->
 
-![Alt text](https://whimsical.com/intwerviw-questions-creator-23ANvjR7LYnCLV9mfj26cZ@6HYTAunKLgTSmPL4hPzUnzpCisSshwPd9MPFX41BD9haYsd)
+![Flow Control App](static/docs/intwerviw_questions_creator.png)
 
 
 ## Frameworks and Tools
@@ -43,18 +44,6 @@ To get started with the project, follow these steps:
     - For FAST API:
         ```sh
         uvicorn app.main:app --reload
-        ```
-    - For Flask:
-        ```sh
-        flask run
-        ```
-    - For Django:
-        ```sh
-        python manage.py runserver
-        ```
-    - For Streamlit:
-        ```sh
-        streamlit run app.py
         ```
 
 ## Contribution Guidelines
