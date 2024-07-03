@@ -9,7 +9,7 @@ list_of_files = [
     "src/__init__.py",
     "src/helper.py",
     ".gitignore",
-    "prompt.py",
+    "src/prompt.py",
     ".env",
     "setup.py",
     "research/trials.ipynb",  # Corrected typo: 'trails' to 'trials'
