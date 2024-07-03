@@ -11,7 +11,7 @@ This project utilizes a variety of frameworks and tools to achieve a robust, pro
 The flow control of the application can be visualized using the following diagram:
 
 
-![Alt text]("https://whimsical.com/intwerviw-questions-creator-23ANvjR7LYnCLV9mfj26cZ@6HYTAunKLgTSmPL4hPzUnzpCisSshwPd9MPFX41BD9haYsd")
+![Alt text](https://whimsical.com/intwerviw-questions-creator-23ANvjR7LYnCLV9mfj26cZ@6HYTAunKLgTSmPL4hPzUnzpCisSshwPd9MPFX41BD9haYsd)
 
 
 ## Frameworks and Tools
