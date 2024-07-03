@@ -8,6 +8,7 @@ logging.info("Hello everyone, welcome to the Interview-Questions-Creator project
 list_of_files = [
     "src/__init__.py",
     "src/helper.py",
+    ".gitignore",
     "prompt.py",
     ".env",
     "setup.py",
