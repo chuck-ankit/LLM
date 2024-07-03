@@ -3,7 +3,7 @@ from pathlib import Path
 import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s')
-logging.info("Hello everyone, welcome to the Interview-Questions-Creator project.")
+logging.info("Hello everyone, welcome to the project.")
 
 list_of_files = [
     "src/__init__.py",
