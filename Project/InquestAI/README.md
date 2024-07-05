@@ -1,13 +1,41 @@
 # Question Creator Application
 
 ## Overview
-The Question Creator Application leverages the power of OpenAI's language models and FastAPI to allow users to upload PDF documents and automatically generate questions and answers from the content. This tool is perfect for creating study guides, interview preparation materials, and more.
+The Question Creator Application is a powerful tool designed to streamline the process of generating questions and answers from PDF documents. By leveraging OpenAI's GPT-3.5-turbo language model and FastAPI, this application provides an efficient solution for educators, students, interviewers, and anyone in need of automated question generation.
 
 ### Key Features
-- **PDF Upload:** Upload your PDF documents easily through the web interface.
-- **Automatic Question Generation:** Uses OpenAI's GPT-3.5-turbo to generate questions from the document content.
-- **Answer Generation:** Automatically generates answers for the created questions.
-- **CSV Export:** Export the questions and answers to a CSV file for easy access and use.
+
+- **PDF Upload**: Users can easily upload PDF documents through a user-friendly web interface. The application accepts PDF files of various formats and sizes, ensuring flexibility for different use cases.
+- **Automatic Question Generation**: The application utilizes the advanced capabilities of OpenAI's GPT-3.5-turbo model to analyze the content of the uploaded PDF and generate relevant questions. This feature is particularly useful for creating quizzes, study guides, and interview questions.
+- **Answer Generation**: In addition to generating questions, the application also provides corresponding answers. This ensures a comprehensive understanding of the document content and facilitates learning and assessment.
+- **CSV Export**: The generated questions and answers can be exported to a CSV file, allowing users to easily access, edit, and share the content. This feature is ideal for educators who want to distribute study materials or for interviewers preparing for candidate assessments.
+
+### Use Cases
+
+- **Educational Institutions**: Teachers and educators can use the application to quickly generate quizzes and study guides from textbooks and lecture notes.
+- **Students**: Students can upload their course materials and generate practice questions to aid in exam preparation.
+- **Interviewers**: HR professionals and interviewers can create interview questions from company documents or candidate resumes.
+- **Content Creators**: Writers and content creators can generate discussion questions and comprehension checks for their articles and publications.
+
+### Technical Overview
+
+The application is built using FastAPI, a modern and fast web framework for building APIs with Python. FastAPI provides high performance, easy-to-use features, and automatic interactive API documentation, making it an ideal choice for this project.
+
+The core functionality of question and answer generation is powered by OpenAI's GPT-3.5-turbo model. The application processes the uploaded PDF, extracts text content, and uses the language model to generate relevant questions and answers. The results are then formatted and made available for export as a CSV file.
+
+### Application Flow Control
+
+The flow of the application can be visualized as follows:
+
+1. **User Uploads PDF**: The user uploads a PDF document through the web interface.
+2. **Text Extraction**: The application extracts text content from the uploaded PDF.
+3. **Question Generation**: The extracted text is processed by the GPT-3.5-turbo model to generate questions.
+4. **Answer Generation**: The application generates corresponding answers for the questions.
+5. **CSV Export**: The questions and answers are compiled into a CSV file, which the user can download.
+
+### Conclusion
+
+The Question Creator Application offers a robust and efficient solution for generating questions and answers from PDF documents. Its combination of advanced language model capabilities and easy-to-use interface makes it an invaluable tool for various user groups, enhancing learning, assessment, and content creation processes.
 
 ## Demo Video
 [![Demo Video](static/docs/demo.mp4)](link_to_demo_video)
@@ -67,3 +95,4 @@ If you wish to contribute to this project, please follow these steps:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
