@@ -38,7 +38,7 @@ The flow of the application can be visualized as follows:
 The Question Creator Application offers a robust and efficient solution for generating questions and answers from PDF documents. Its combination of advanced language model capabilities and easy-to-use interface makes it an invaluable tool for various user groups, enhancing learning, assessment, and content creation processes.
 
 ## Demo Video
-[![Demo Video](static/docs/demo.mp4)](link_to_demo_video)
+[![Demo Video](https://vimeo.com/978206455?share=copy)](https://vimeo.com/978206455?share=copy)
 
 ## Application Flow Control
 The flow control of the application can be visualized using the following diagram:
