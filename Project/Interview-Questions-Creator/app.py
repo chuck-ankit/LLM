@@ -19,5 +19,12 @@ templates = Jinja2Templates(directory="templates")
 async def home(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
+@app.post("/upload")
+async def upload(request: Request, file: bytes = File(), filename: str = Form(...)):
+    base_folder = 'static/docs/'
+    if not os.path.isdir(base_folder):
+        os.mkdir(base_folder)
+    pdf_filename = os.path.join(base_folder, filename)
+
 if __name__ == "__main__":  
     uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
