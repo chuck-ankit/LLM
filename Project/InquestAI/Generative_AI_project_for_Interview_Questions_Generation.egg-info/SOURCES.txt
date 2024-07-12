@@ -1,4 +1,4 @@
-LICENSE.txt
+LICENSE
 README.md
 setup.py
 Generative_AI_project_for_Interview_Questions_Generation.egg-info/PKG-INFO
@@ -7,3 +7,4 @@ Generative_AI_project_for_Interview_Questions_Generation.egg-info/dependency_lin
 Generative_AI_project_for_Interview_Questions_Generation.egg-info/top_level.txt
 src/__init__.py
 src/helper.py
+src/prompt.py
